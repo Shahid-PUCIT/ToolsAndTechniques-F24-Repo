@@ -60,18 +60,18 @@ nav a {
   text-align: center;
 }
 
-.about, .services {
+.about, .services, .projects {
   padding: 60px 0;
   text-align : center;
 }
 
-.service-list {
+.service-list, .project-items {
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
 }
 
-.service-item {
+.service-item, .project-item {
   width: 30%;
   padding: 20px;
   border: 1px solid var(--dark);
