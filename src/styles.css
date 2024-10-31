@@ -1,0 +1,55 @@
+:root {
+  --primary: dodgerblue;
+  --light: #fff;
+  --dark: #111;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.space_between{
+  display: flex;
+  justify-content: space-between;
+}
+header {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  background: var(--light);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav a {
+  margin: 0 15px;
+  color: var(--dark);
+  text-decoration: none;
+}
+
+#currentYear {
+  font-weight: bold;
+}
