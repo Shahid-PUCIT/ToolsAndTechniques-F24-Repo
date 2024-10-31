@@ -60,9 +60,23 @@ nav a {
   text-align: center;
 }
 
-.about {
+.about, .services {
   padding: 60px 0;
   text-align : center;
+}
+
+.service-list {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.service-item {
+  width: 30%;
+  padding: 20px;
+  border: 1px solid var(--dark);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 #currentYear {
