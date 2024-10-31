@@ -108,6 +108,13 @@ nav a {
   cursor: pointer;
 }
 
+footer {
+  background: var(--dark);
+  color: var(--light);
+  padding: 10px 0;
+  text-align: center;
+}
+
 #currentYear {
   font-weight: bold;
 }
