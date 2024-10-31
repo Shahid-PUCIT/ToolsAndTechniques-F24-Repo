@@ -60,7 +60,7 @@ nav a {
   text-align: center;
 }
 
-.about, .services, .projects {
+.about, .services, .projects, .contact {
   padding: 60px 0;
   text-align : center;
 }
@@ -77,6 +77,35 @@ nav a {
   border: 1px solid var(--dark);
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact {
+  background: var(--dark);
+  color: var(--light);
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#contactForm input, #contactForm textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid var(--dark);
+  border-radius: 10px;
+}
+
+#contactForm button[type="submit"] {
+  padding: 10px 20px;
+  background: var(--primary);
+  color: var(--light);
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 #currentYear {
