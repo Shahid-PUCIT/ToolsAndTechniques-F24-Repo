@@ -65,12 +65,12 @@ Just open `index.html` file on your browser to run the project.
   - Added the "footer" with a current year and some text.
   - Tested JavaScript current year functionality.
 
-- **Day 8 (Final Touches)**:
+- **7 (Final Touches)**:
   - Made minor adjustments to the layout and design based on feedback.
   - Finalized the content in all sections of the website.
   - Ensured all links and forms were functioning correctly.
 
-- **Day 9 (Documentation)**:
+- **8 (Documentation)**:
   - Created the `README.md` file to document the project.
   - Added sections for project description, installation instructions, tools used, and key actions taken.
   - Reviewed the documentation for clarity and completeness.
