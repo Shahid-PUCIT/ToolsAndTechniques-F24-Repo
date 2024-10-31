@@ -21,7 +21,7 @@ body {
   padding: 0 15px;
 }
 
-.space_between{
+.space_between {
   display: flex;
   justify-content: space-between;
 }
@@ -52,7 +52,7 @@ nav a {
 
 .banner {
   min-height: 100vh;
-  background: url('../assets/images/banner.jpg') no-repeat center center/cover;
+  background: url("../assets/images/banner.jpg") no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -60,18 +60,23 @@ nav a {
   text-align: center;
 }
 
-.about, .services, .projects, .contact {
+.about,
+.services,
+.projects,
+.contact {
   padding: 60px 0;
-  text-align : center;
+  text-align: center;
 }
 
-.service-list, .project-items {
+.service-list,
+.project-items {
   display: flex;
   justify-content: space-around;
   margin: 20px 0;
 }
 
-.service-item, .project-item {
+.service-item,
+.project-item {
   width: 30%;
   padding: 20px;
   border: 1px solid var(--dark);
@@ -91,7 +96,8 @@ nav a {
   justify-content: center;
 }
 
-#contactForm input, #contactForm textarea {
+#contactForm input,
+#contactForm textarea {
   width: 100%;
   padding: 10px;
   margin: 10px 0;
